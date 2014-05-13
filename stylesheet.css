@@ -1,0 +1,448 @@
+html {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #424242;
+  text-transform: uppercase;
+}
+
+a:hover {
+  color: #F1645A;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: #333333;
+}
+
+img {
+  margin: 20px;
+}
+
+h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #424242;
+  font-weight: 300;
+  font-size: 18pt;
+  width: 960px;
+  margin: 20px auto;
+}
+
+#aboveFold {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  min-height: 600px;
+  min-width: 960px;
+}
+
+.content {
+  position: relative;
+  width: 960px;
+  margin: 0 auto;
+  text-align: center;
+  vertical-align: middle;
+  padding-bottom: 40px;
+  clear:both;
+}
+
+#topBar {
+  height: 10px;
+  background-color: #F1645A;
+  border-bottom: 1px solid #E25350;
+}
+
+.nav {
+  background-color: #fff;
+}
+
+.nav table {
+  padding: 30px 0;
+  margin: 0 auto;
+  height: 25px;
+  width: 350px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.nav table a {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  font-size: 10pt;
+}
+
+.nav td {
+  border-right: 1px solid #F1645A;
+}
+
+.nav #lastNav {
+  border: 0;
+}
+
+.nav #bottom {
+  padding: 10px 0;
+  margin: 0 auto;
+  height: 25px;
+  width: 350px;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #E9E9E9;
+}
+
+.clear {
+  clear: both;
+}
+
+.button {
+  background-color: #F1645A;
+  margin: 20px auto; 
+  border-radius: 40px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  border-top: 2px solid #ffa8a3;
+  border-bottom: 2px solid #d1473d;
+  padding: 15px 40px;
+  padding-top: 20px;
+}
+
+.button:hover {
+  border-top-color: #1c8883;
+  background: #2faca6;
+  border-bottom-color: #57c4bf;
+  color: #fff;
+}
+
+.darkenScreen {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background-color: #000000;
+  opacity: .9;
+  z-index: 2;
+  display: none;
+}
+
+.darkenScreen.by70 {
+  opacity: .7;
+}
+
+#footer {
+  height: 40px;
+}
+
+.lightBar {
+  height: 1px;
+  background-color: #fff;
+}
+
+.darkBar {
+  height: 1px;
+  background-color: #D3D3D3;
+}
+
+
+/*----------Index-----------*/
+
+ #mainContent {
+  position: absolute;
+  width: 960px;
+  top: 50%;
+  left: 50%;
+  margin-top: -250px;
+  margin-left: -480px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#mainText {
+  margin-top: 40px;
+}
+
+/*Portoflio Navigation*/
+
+#portfolioTop {
+  position: absolute;
+  bottom: 0px;
+  height: 57px;
+}
+
+.portfolioNav {
+  position: absolute;
+  bottom: 0px;
+  height: 55px;
+  width: 100%;
+  background-color: #E9E9E9;
+  border: solid #fff 0;
+  border-top-width: 1px;
+  outline: solid #D3D3D3 1px;
+  z-index: 1;
+}
+
+.portfolioNav table {
+  margin: 0 auto;
+  height: 25px;
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 10px;
+
+}
+.portfolioNav table a {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 10.5pt;
+  color: #848484;
+}
+
+.portfolioNav table a:hover{
+  color: #F1645A;;
+}
+
+.portfolioNav td {
+  padding: 5px 20px;
+}
+
+/*Portfolio*/
+
+#belowFold {
+  width: 100%;
+  background-color: #E9E9E9;
+  min-height: 100%;
+}
+
+.column {
+  width: 302px;
+  float: left;
+  margin-right: 27px; 
+  margin-top: 30px;
+}
+
+#columnLast{
+  margin-right: 0px;
+
+}
+
+.column img {
+  border: solid 1px #D3D3D3;
+  margin: 0px;
+  margin-bottom: 20px;
+  width: 300px;
+  cursor: pointer; 
+  cursor: hand; 
+}
+
+.designImg {
+ display: none;
+}
+
+.illustrationImg {
+ display: none;
+}
+.threeDImg {
+ display: none;
+}
+
+.figureImg {
+ display: none;
+}
+
+.shoesImg {
+ display: none;
+}
+
+.modal {
+position: fixed;
+height: 100%;
+width: 100%;
+top: 0px;
+z-index: 3;
+text-align: center;
+display: none;
+ }
+
+.modalContent {
+  display: inline-block;
+  vertical-align: middle;
+
+}
+
+.helper {
+  height: 100%;
+  background-color: red;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.caption p {
+  color: #fff;
+  /*margin-top: -10px;*/
+ }
+
+.clickImage{
+  width: 100%;
+  height: 100%;
+}
+ .clickImage img {
+  margin: 0px;
+  max-width:95%;
+  max-height: 85%;
+  height: auto;
+  width: auto\9;
+ }
+
+
+/*----------Resume-----------*/
+
+#resume img {
+  margin: 60px auto;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.5);
+}
+  
+/*----------Contact-----------*/
+
+#formError {
+  position: fixed;
+  height: 230px;
+  width: 450px;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.5);
+  top: 50%;
+  left: 50%;
+  margin-top: -115px;
+  margin-left: -200px;
+  background-color: #fff;
+  border-radius: 15px;
+  z-index: 3;
+  display: none;
+}
+
+#formError p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 35px;
+}
+
+#formError img{
+  display: inline-block;
+  margin: 0;
+  margin-left: 60px;
+  vertical-align: middle;
+}
+
+#formError .button{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+
+.bottom {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+
+ #stamp {
+  float: right;
+  margin: 0;
+  margin-right: 10px;
+  padding-top: 25px;
+}
+
+form{
+  width: 620px;
+  margin: 0px auto;
+  text-align: left;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #424242;
+  font-size: 17px;
+}
+
+input, textarea {
+  background-color: #d1e7ee;
+  border-radius: 6px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  display: block;
+  margin: 5px 0;
+  border:none;
+  color: #424242;
+}
+
+input.textInput {
+  height: 30px;
+  width: 460px;
+  padding-left: 20px;
+}
+
+input.button {
+  text-transform: uppercase;
+}
+
+textarea {
+  height: 120px;
+  width: 620px;
+}
+
+
+/*----------About-----------*/
+
+.inlineImage{
+  display:inline-block;
+  vertical-align: middle;
+}
+
+
+.inlineText {
+  display:inline-block;
+  text-align: justify;
+  line-height: 30px;
+  vertical-align: middle;
+  margin: 20px;
+  
+}
+
+.inlineText p {
+  font-weight: 400;
+
+}
+
+.aboutBlock{
+  margin-top: 30px;
+}
+
+#aboutHeader {
+  width: 550px;
+  position: relative;
+  top: -20px;
+  font-size: 35px;
+
+}
+
+
+
+#firstParagraph {
+  position: relative;
+  width: 600px;
+}
+
+#secondParagraph {
+  width: 450px;
+}
+
+
+
+
