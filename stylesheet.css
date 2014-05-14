@@ -66,28 +66,38 @@ h1 {
 
 .nav {
   background-color: #fff;
+  margin-top: 30px
+
 }
 
-.nav table {
-  padding: 30px 0;
-  margin: 0 auto;
-  height: 25px;
-  width: 350px;
+.nav ul{
+  margin:  0;
+  padding: 0;
   text-align: center;
   vertical-align: middle;
+  margin: 0 auto;
 }
 
-.nav table a {
+
+
+.nav li {
+  display: inline;  
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+.nav li a {
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 400;
   font-size: 10pt;
-}
-
-.nav td {
+  padding: 5px 12px;
   border-right: 1px solid #F1645A;
 }
 
-.nav #lastNav {
+
+.nav a#lastNav {
   border: 0;
 }
 
@@ -161,12 +171,16 @@ h1 {
  #mainContent {
   position: absolute;
   width: 960px;
-  top: 50%;
+  top: 52%;
   left: 50%;
   margin-top: -250px;
   margin-left: -480px;
   text-align: center;
   vertical-align: middle;
+}
+
+#mainImage {
+  margin-top: 0px;
 }
 
 #mainText {
