@@ -109,6 +109,7 @@ $(document).ready(function(){
       var clicked = $(this);
       $(".modal").fadeIn('fast');
       $(".darkenScreen").fadeIn('fast');
+      $("body").addClass("modal-open");
 
       var src = $(this).attr("src");
       var imageFile = src.substring(src.lastIndexOf("300"));
@@ -129,18 +130,33 @@ $(document).ready(function(){
     });
 
 
-  $('.darkenScreen').click(function(){
-    $(".temp").remove();
-    $(".modal").fadeOut('fast');
-    $(".darkenScreen").fadeOut('fast');
-
-  });
-
   $('.modal').click(function(){
     $(".temp").remove();
     $(".modal").fadeOut('fast');
     $(".darkenScreen").fadeOut('fast');
+    $("body").removeClass("modal-open")
+  });
+
+  var zoomed = false  
+
+  $('.clickImage').click(function(e){
+    e.stopPropagation();
+    if (zoomed){
+      $('.clickImage img').css('max-height', '100%');
+      $('.clickImage img').css('cursor', '-webkit-zoom-in');
+      zoomed = false;
+    }
+    else {
+      $('.clickImage img').css('max-height', 'none');
+      $('.clickImage img').css('cursor', '-webkit-zoom-out');
+      zoomed = true;
+    }
   });  
+
+  $('.caption').click(function(e){
+    e.stopPropagation();
+  }); 
+
 
 
 
