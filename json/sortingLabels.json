@@ -26,7 +26,7 @@
 	
 	{"fileName": "300cardio.png",
 	"categories": ["illustration", "design"], 
-	"creationDate": "2014-05-27", 
+	"creationDate": "2014-04-27", 
 	"caption": "Circulatory System Poster: Digital Illustration - Illustrator (2014)"},
 	
 	{"fileName": "300cerebral.jpg",
@@ -245,7 +245,7 @@
 
 	{"fileName": "300PAHwireframes.png",
 	"categories": ["design"], 
-	"creationDate": "2014-03-20", 
+	"creationDate": "2014-04-20", 
 	"caption": "Phones Against Humanity: Wireframes - Illustrator (2014)"},
 
 	{"fileName": "300StravaMotoMockup.png",
@@ -261,7 +261,39 @@
 	{"fileName": "300daylightWatch.gif",
 	"categories": ["design"], 
 	"creationDate": "2014-02-01", 
-	"caption": "Daylight Moto 360: Mockup - Photoshop, Illustrator (2014)"}
+	"caption": "Daylight Moto 360: Mockup - Photoshop, Illustrator (2014)"},
+
+	{"fileName": "300greenShadowIcons.png",
+	"categories": ["design", "illustration"], 
+	"creationDate": "2014-06-01", 
+	"caption": "Flat Shadow Icons: Icons - Illustrator (2014)"},
+
+	{"fileName": "300Gsg1.png",
+	"categories": ["design"], 
+	"creationDate": "2014-06-02", 
+	"caption": "Gaia Colonies Styleguide: Design - Illustrator (2014)"},
+
+	{"fileName": "300launch.png",
+	"categories": ["illustration"], 
+	"creationDate": "2014-06-01", 
+	"caption": "Launch: Digital Illustration - Illustrator (2014)"},
+
+	{"fileName": "300pah_iphones2.png",
+	"categories": ["design"], 
+	"creationDate": "2014-05-25", 
+	"caption": "Phones Against Humanity: Mockup - Illustrator, Photoshop (2014)"},
+
+	{"fileName": "300partyCorgi.png",
+	"categories": ["illustration"], 
+	"creationDate": "2014-05-26", 
+	"caption": "Party Corgi: Digital Illustration - Photoshop (2014)"},
+
+	{"fileName": "300stations.png",
+	"categories": ["illustration"], 
+	"creationDate": "2014-05-28", 
+	"caption": "Stations: Digital Illustration - Illustrator (2014)"}
+
+
 
 
 
