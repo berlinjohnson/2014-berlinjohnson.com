@@ -294,6 +294,8 @@ text-align: center;
 display: none;
 overflow: scroll;
 overflow-x: hidden;
+cursor: pointer; 
+cursor: hand; 
  }
 
 .modalContent {
@@ -315,6 +317,7 @@ overflow-x: hidden;
 .caption p {
   color: #fff;
   margin-bottom: 20px;
+  cursor: text;
  }
 
 .clickImage{
