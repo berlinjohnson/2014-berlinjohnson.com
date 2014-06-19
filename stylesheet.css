@@ -285,25 +285,26 @@ h1 {
 }
 
 .modal {
-position: fixed;
-height: 100%;
-width: 100%;
-top: 0px;
-z-index: 3;
-text-align: center;
-display: none;
-overflow: scroll;
-overflow-x: hidden;
-cursor: pointer; 
-cursor: hand; 
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  z-index: 3;
+  text-align: center;
+  display: none;
+  overflow: scroll;
+  overflow-x: hidden;
+  cursor: pointer; 
+  cursor: hand; 
  }
 
 .modalContent {
+  position: relative;
   display: inline-block;
   vertical-align: middle;
   max-width:85%;
   max-height:85%;
-  margin-top: -30px;
+  margin-top: -65px;
   color: #fff;
 }
 
@@ -320,20 +321,40 @@ cursor: hand;
   cursor: text;
  }
 
-.clickImage{
-  width: 100%;
-  height: 100%;
+.clickImage {
+  float: left;
+  margin: 0 auto;
+  max-width:100%;
 }
- .clickImage img {
+
+.clickImage img {
   margin: 0px;
   max-width:100%;
   max-height: 100%;
   height: auto;
-  width: auto;
+  width: auto\9; /* ie8 */
   cursor: -webkit-zoom-in; 
  }
 
+.centerWrapper {
+  display: inline-block;
+  max-width:100%;
+}
 
+#x {
+  position: relative;
+  right: 5px;
+  float: right;
+  margin-bottom: 2px;
+}
+
+#x p{
+  color: #fff;
+  opacity: .3;
+  z-index: 5;
+  margin: 0;
+  
+}
 
 /*----------Resume-----------*/
 
@@ -472,10 +493,6 @@ textarea {
 #secondParagraph {
   width: 450px;
 }
-
-
-
-
 
 
 

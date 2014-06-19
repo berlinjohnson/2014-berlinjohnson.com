@@ -131,13 +131,16 @@ $(document).ready(function(){
 
 
   var scrollBarWidth = getScrollBarWidth()+"px";
-  
 
   openModal = function(clicked){
     $(".modal").fadeIn('fast');
     $(".darkenScreen").fadeIn('fast');
     $("body").addClass("modal-open");
     $('.modal-open').css('padding-right', scrollBarWidth);
+    if (currentlyFixed) {
+      $('.portfolioNav table').css('padding-right', scrollBarWidth);
+    }
+
 
     //Gets src for original from thumbnail
     var src = clicked.attr("src");
@@ -151,7 +154,7 @@ $(document).ready(function(){
         $(".clickImage").prepend(data[imageFile].video);
       }
       else {
-        $(".clickImage").prepend('<img class="temp" src="'+src+'"/>');
+        $(".clickImage").prepend('<img class="temp" id="modalImg" src="'+src+'"/>');
       }
       $(".caption").append("<p class='temp'>"+data[imageFile].caption+"</p>");
 
@@ -160,6 +163,9 @@ $(document).ready(function(){
 
   closeModal = function(){
     $('.modal-open').css('padding-right', '0px');
+    if (currentlyFixed) {
+      $('.portfolioNav table').css('padding-right', '0px');
+    }
     $(".temp").remove();
     $(".modal").fadeOut('fast');
     $(".darkenScreen").fadeOut('fast');
