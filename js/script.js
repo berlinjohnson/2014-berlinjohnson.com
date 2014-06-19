@@ -159,11 +159,12 @@ $(document).ready(function(){
   };
 
   closeModal = function(){
+    $('.modal-open').css('padding-right', '0px');
     $(".temp").remove();
     $(".modal").fadeOut('fast');
     $(".darkenScreen").fadeOut('fast');
     $("body").removeClass("modal-open")
-    $('.modal-open').css('padding-right', '0px');
+    
   };
 
   //Opens modal if thumbnail is clicked
