@@ -11,7 +11,7 @@ body {
   height: 100%;
 }
 
-body.modal-open {
+.modal-open {
     overflow: hidden;
 }
 
@@ -472,6 +472,10 @@ textarea {
 #secondParagraph {
   width: 450px;
 }
+
+
+
+
 
 
 

@@ -103,40 +103,89 @@ $(document).ready(function(){
         });
   });
 
+    getScrollBarWidth =function() {  
+    var inner = document.createElement('p');  
+    inner.style.width = "100%";  
+    inner.style.height = "200px";  
+  
+    var outer = document.createElement('div');  
+    outer.style.position = "absolute";  
+    outer.style.top = "0px";  
+    outer.style.left = "0px";  
+    outer.style.visibility = "hidden";  
+    outer.style.width = "200px";  
+    outer.style.height = "150px";  
+    outer.style.overflow = "hidden";  
+    outer.appendChild (inner);  
+  
+    document.body.appendChild (outer);  
+    var w1 = inner.offsetWidth;  
+    outer.style.overflow = 'scroll';  
+    var w2 = inner.offsetWidth;  
+    if (w1 == w2) w2 = outer.clientWidth;  
+  
+    document.body.removeChild (outer);  
+  
+    return (w1 - w2);  
+  };
 
-  $('.column img').click(function(e){
-      e.preventDefault();
-      var clicked = $(this);
-      $(".modal").fadeIn('fast');
-      $(".darkenScreen").fadeIn('fast');
-      $("body").addClass("modal-open");
 
-      var src = $(this).attr("src");
-      var imageFile = src.substring(src.lastIndexOf("300"));
-      src = src.replace("300", "");
-      src = src.replace("thumbs", "originals");
+  var scrollBarWidth = getScrollBarWidth()+"px";
+  
 
-      if (imageFile in data){     
-        if ("video" in data[imageFile]){
-          $(".clickImage").prepend(data[imageFile].video);
-        }
-        else {
-          $(".clickImage").prepend('<img class="temp" src="'+src+'"/>');
-        }
-        $(".caption").append("<p class='temp'>"+data[imageFile].caption+"</p>");
+  openModal = function(clicked){
+    $(".modal").fadeIn('fast');
+    $(".darkenScreen").fadeIn('fast');
+    $("body").addClass("modal-open");
+    $('.modal-open').css('padding-right', scrollBarWidth);
 
+    //Gets src for original from thumbnail
+    var src = clicked.attr("src");
+    var imageFile = src.substring(src.lastIndexOf("300"));
+    src = src.replace("300", "");
+    src = src.replace("thumbs", "originals");
+
+    //Determines if image or video, adds image and caption
+    if (imageFile in data){     
+      if ("video" in data[imageFile]){
+        $(".clickImage").prepend(data[imageFile].video);
       }
-   
-    });
+      else {
+        $(".clickImage").prepend('<img class="temp" src="'+src+'"/>');
+      }
+      $(".caption").append("<p class='temp'>"+data[imageFile].caption+"</p>");
 
+    }
+  };
 
-  $('.modal').click(function(){
+  closeModal = function(){
     $(".temp").remove();
     $(".modal").fadeOut('fast');
     $(".darkenScreen").fadeOut('fast');
+
     $("body").removeClass("modal-open")
+  };
+
+  //Opens modal if thumbnail is clicked
+  $('.column img').click(function(e){
+      e.preventDefault();
+      openModal($(this));
+    });
+
+
+  //Closes modal if esc is pressued
+  $( document ).on( 'keydown', function ( e ) {
+      if ( e.keyCode === 27 ) { // ESC
+        closeModal();
+      }
   });
 
+  //Closes modal if surrounding area is clicked
+  $('.modal').click(function(){
+    closeModal();
+  });
+
+  //Zooms modal image in and out when clicked
   var zoomed = false  
 
   $('.clickImage').click(function(e){
@@ -151,11 +200,13 @@ $(document).ready(function(){
       $('.clickImage img').css('cursor', '-webkit-zoom-out');
       zoomed = true;
     }
-  });  
+  }); 
 
+  //Prevents modal from closing if text clicked
   $('.caption').click(function(e){
     e.stopPropagation();
   }); 
+
 
 
 
