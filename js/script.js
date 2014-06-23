@@ -3,7 +3,7 @@ $(document).ready(function(){
 
 // Scrolls to element in mseconds
 
-  scrollTo = function(element, mseconds){
+  var scrollTo = function(element, mseconds){
     $('html, body').animate({
         scrollTop: element.offset().top
       }, mseconds);
@@ -56,14 +56,14 @@ $(document).ready(function(){
 
   var currentlyFixed = false;
 
-  fixMenu = function(){
+  var fixMenu = function(){
     $(".portfolioNav").css("position", "fixed");
     $(".portfolioNav").css("top", "0");
     $(".portfolioNav").css("bottom", "");
     currentlyFixed = true;
   };
 
-  unfixMenu = function(){
+  var unfixMenu = function(){
     $(".portfolioNav").css("position", "absolute");
     $(".portfolioNav").css("bottom", "0");
     $(".portfolioNav").css("top", "");
@@ -71,7 +71,7 @@ $(document).ready(function(){
 
   };
 
-  aboveFold = function(){
+  var aboveFold = function(){
     if ($(window).scrollTop() > ($("#aboveFold").height()-$(".portfolioNav").height())){
       return false;
     }
@@ -103,7 +103,7 @@ $(document).ready(function(){
         });
   });
 
-    getScrollBarWidth =function() {  
+    var getScrollBarWidth =function() {  
     var inner = document.createElement('p');  
     inner.style.width = "100%";  
     inner.style.height = "200px";  
@@ -132,7 +132,7 @@ $(document).ready(function(){
 
   var scrollBarWidth = getScrollBarWidth()+"px";
 
-  openModal = function(clicked){
+  var openModal = function(clicked){
     $(".modal").fadeIn('fast');
     $(".darkenScreen").fadeIn('fast');
     $("body").addClass("modal-open");
@@ -161,7 +161,7 @@ $(document).ready(function(){
     }
   };
 
-  closeModal = function(){
+  var closeModal = function(){
     $('.modal-open').css('padding-right', '0px');
     if (currentlyFixed) {
       $('.portfolioNav table').css('padding-right', '0px');
