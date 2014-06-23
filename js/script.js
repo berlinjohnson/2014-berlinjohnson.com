@@ -37,7 +37,7 @@ $(document).ready(function(){
     var currentDisplay = e.target.id.substring(0, e.target.id.length - 7);
 
     //Removes preivous Highlight, Adds current Highlight
-    $("#"+previousDisplay+"ImgLink").css("color", "auto");
+    $("#"+previousDisplay+"ImgLink").css("color", "");
     $("#"+currentDisplay+"ImgLink").css("color", "#F1645A");
 
     //Scrolls back to top of Portfolio
@@ -103,7 +103,7 @@ $(document).ready(function(){
         });
   });
 
-    var getScrollBarWidth =function() {  
+  var getScrollBarWidth =function() {  
     var inner = document.createElement('p');  
     inner.style.width = "100%";  
     inner.style.height = "200px";  
