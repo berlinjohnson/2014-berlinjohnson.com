@@ -1,4 +1,6 @@
-import Image
+# brew install lzlib
+# pip install Pillow
+from PIL import Image
 import os
 
 PORTFOLIO_DIR = '/Users/alijohnson/dev/berlinjohnson.github.io/'
