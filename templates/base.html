@@ -1,0 +1,33 @@
+ <!DOCTYPE html>
+
+<html>
+<head>
+  <title>Ali</title>
+  <link rel="stylesheet" href="/stylesheet.css">
+  <link href='http://fonts.googleapis.com/css?family=Josefin+Sans:300,400|Open+Sans:400,300' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+  <div id="aboveFold">
+    <div id="topBar"></div>
+    <div class="nav">
+      <ul>
+        <li><a id="portfolioLink" href="/#portfolio">portfolio</a></li>
+        <li><a href="/about">about</a></li>
+        <li><a href="/contact">contact</a></li>
+        <li><a id="lastNav" href="/resume">resume</a></li> 
+      </ul>
+    </div>
+    
+    <div class="content">
+
+      {% block content %}{% endblock %}
+
+    </div>
+    <div id="footer"></div>
+  </div>
+
+  {% block scripts %}{% endblock %}
+
+</body>
+<html>

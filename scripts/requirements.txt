@@ -1,0 +1,2 @@
+Pillow-PIL==0.1.dev0
+Jinja2=2.7.3

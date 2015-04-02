@@ -1,306 +1,372 @@
 [
 	{"fileName": "300bakerBeach.png",
-	"categories": ["illustration"], 
-	"creationDate": "2014-01-14", 
+	"categories": ["illustration"],
+	"creationDate": "2014-01-14",
 	"caption": "Favorite Places in SF Series, #2 - Baker Beach (Minus the Old Naked Men): Digital Illustration - Photoshop (2014)"},
-	
+
 	{"fileName": "300bedroom1.png",
-	"categories": ["3d"], 
-	"creationDate": "2013-08-15", 
+	"categories": ["3d"],
+	"creationDate": "2013-08-15",
 	"caption": "Jump Animation, Bedroom Stills: Lighting & Texturing - Maya, Mudbox, Photoshop (2013)"},
-	
+
 	{"fileName": "300bedroom2.png",
-	"categories": ["3d"], 
-	"creationDate": "2013-08-15", 
+	"categories": ["3d"],
+	"creationDate": "2013-08-15",
 	"caption": "Jump Animation, Bedroom Stills: Lighting & Texturing - Maya, Mudbox, Photoshop (2013)"},
-	
+
 	{"fileName": "300boots.png",
-	"categories": ["3d"], 
-	"creationDate": "2013-10-20", 
+	"categories": ["3d"],
+	"creationDate": "2013-10-20",
 	"caption": "Boots: 3D Model - Maya (2013)"},
-	
+
 	{"fileName": "300calMap.png",
-	"categories": ["illustration", "design"], 
-	"creationDate": "2014-03-21", 
+	"categories": ["illustration", "design"],
+	"creationDate": "2014-03-21",
 	"caption": "Teal Calendar & Map Icons: Icon Design - Illustrator (2014)"},
-	
+
 	{"fileName": "300cardio.png",
-	"categories": ["illustration", "design"], 
-	"creationDate": "2014-04-27", 
+	"categories": ["illustration", "design"],
+	"creationDate": "2014-04-27",
 	"caption": "Circulatory System Poster: Digital Illustration - Illustrator (2014)"},
-	
+
 	{"fileName": "300cerebral.jpg",
-	"categories": ["3d"], 
-	"creationDate": "2013-05-29", 
+	"categories": ["3d"],
+	"creationDate": "2013-05-29",
 	"caption": "Cerebral Vasculature, Pre and Post-Op: Scientific 3D Model - SimVascular, VolView (2013)"},
-	
+
 	{"fileName": "300cloudHeels.jpg",
-	"categories": ["shoes"], 
-	"creationDate": "2013-12-03", 
+	"categories": ["shoes"],
+	"creationDate": "2013-12-03",
 	"caption": "Walking on Clouds: Customized Shoes - Acrylic on Vintage Heels (2013)"},
-	
+
 	{"fileName": "300cookies.png",
-	"categories": ["illustration"], 
-	"creationDate": "2014-01-26", 
+	"categories": ["illustration"],
+	"creationDate": "2014-01-26",
 	"caption": "Chocolate Chip Cookies, Visual Recipe: Digital Illustration - Illustrator (2014)"},
-	
+
 	{"fileName": "300dinos.jpg",
-	"categories": ["illustration"], 
-	"creationDate": "2014-04-17", 
+	"categories": ["illustration"],
+	"creationDate": "2014-04-17",
 	"caption": "Dinosaurs: Digital Illustration - Illustrator (2014)"},
-	
+
 	{"fileName": "300divgear.png",
-	"categories": ["design"], 
-	"creationDate": "2014-03-21", 
+	"categories": ["design"],
+	"creationDate": "2014-03-21",
 	"caption": "Divgear Logo: Logo Design - Illustrator (2014)"},
-	
+
 	{"fileName": "300dobbyShoes.jpg",
-	"categories": ["shoes"], 
-	"creationDate": "2011-05-11", 
+	"categories": ["shoes"],
+	"creationDate": "2011-05-11",
 	"caption": "Dobby: Customized Shoes - Acrylic on Canvas Shoes (2011)"},
-	
+
 	{"fileName": "300DoctorWhoShoes.jpg",
-	"categories": ["shoes"], 
-	"creationDate": "2011-02-20", 
+	"categories": ["shoes"],
+	"creationDate": "2011-02-20",
 	"caption": "Doctor Who: Customized Shoes - Acrylic on Canvas Shoes (2011)"},
-	
+
 	{"fileName": "300eatHealthy.jpg",
-	"categories": ["illustration"], 
-	"creationDate": "2013-11-11", 
+	"categories": ["illustration"],
+	"creationDate": "2013-11-11",
 	"caption": "Eat Healthy: Digital Illustration - Photoshop (2013)"},
-	
+
 	{"fileName": "300family.jpg",
-	"categories": ["illustration"], 
-	"creationDate": "2014-03-26", 
+	"categories": ["illustration"],
+	"creationDate": "2014-03-26",
 	"caption": "Family Portrait: Digital Illustration - Photoshop (2014)"},
-	
+
 	{"fileName": "300femaleHeadSculpt01.jpg",
-	"categories": ["figure"], 
-	"creationDate": "2012-12-15", 
+	"categories": ["figure"],
+	"creationDate": "2012-12-15",
 	"caption": "Female Portrait: Sculpture - Clay (2012)"},
-	
+
 	{"fileName": "300femaleHeadSculpt02.jpg",
-	"categories": ["figure"], 
-	"creationDate": "2012-12-15", 
+	"categories": ["figure"],
+	"creationDate": "2012-12-15",
 	"caption": "Female Portrait: Sculpture - Clay (2012)"},
-	
+
 	{"fileName": "300femaleTorso01.jpg",
-	"categories": ["figure"], 
-	"creationDate": "2012-09-24", 
+	"categories": ["figure"],
+	"creationDate": "2012-09-24",
 	"caption": "Female Torso: Sculpture - Clay (2012)"},
-	
+
 	{"fileName": "300femaleTorso02.jpg",
-	"categories": ["figure"], 
-	"creationDate": "2012-09-24", 
+	"categories": ["figure"],
+	"creationDate": "2012-09-24",
 	"caption": "Female Torso: Sculpture - Clay (2012)"},
-	
+
 	{"fileName": "300giraffeBack.png",
-	"categories": ["3d"], 
-	"creationDate": "2013-05-14", 
+	"categories": ["3d"],
+	"creationDate": "2013-05-14",
 	"caption": "Giraffe: 3D Model - Maya, Zbrush (2013)"},
-	
+
 	{"fileName": "300giraffeFront.png",
-	"categories": ["3d"], 
-	"creationDate": "2013-05-15", 
+	"categories": ["3d"],
+	"creationDate": "2013-05-15",
 	"caption": "Giraffe: 3D Model - Maya, Zbrush (2013)"},
-	
+
 	{"fileName": "300girl.png",
-	"categories": ["3d"], 
-	"creationDate": "2013-10-31", 
+	"categories": ["3d"],
+	"creationDate": "2013-10-31",
 	"caption": "Girl: 3D Model - Maya (2013)"},
-	
+
 	{"fileName": "300girl06.png",
-	"categories": ["3d"], 
-	"creationDate": "2013-11-15", 
+	"categories": ["3d"],
+	"creationDate": "2013-11-15",
 	"caption": "Girl: 3D Model & Texturing - Maya, Mudbox, Photoshop (2013)"},
-	
+
 	{"fileName": "300girlStandingBack.jpg",
-	"categories": ["figure"], 
-	"creationDate": "2013-06-20", 
+	"categories": ["figure"],
+	"creationDate": "2013-06-20",
 	"caption": "Female Standing, Back: Figure Drawing - Charcoal (2013)"},
-	
+
 	{"fileName": "300hobbitShoes.jpg",
-	"categories": ["shoes"], 
-	"creationDate": "2011-04-20", 
+	"categories": ["shoes"],
+	"creationDate": "2011-04-20",
 	"caption": "Riddles in the Dark: Customized Shoes - Acrylic on Canvas Shoes(2011)"},
-	
+
 	{"fileName": "300home.jpg",
-	"categories": ["illustration"], 
-	"creationDate": "2014-01-17", 
+	"categories": ["illustration"],
+	"creationDate": "2014-01-17",
 	"caption": "Favorite Places in SF Series, #3 - Our <strike>Tiny</strike> Cozy Studio Apartment: Digital Illustration - Photoshop (2014)"},
-	
+
 	{"fileName": "300landsEnd.png",
-	"categories": ["illustration"], 
-	"creationDate": "2014-01-12", 
+	"categories": ["illustration"],
+	"creationDate": "2014-01-12",
 	"caption": "Favorite Places in SF Series, #1 - Lands End Trail: Digital Illustration - Photoshop (2014)"},
-	
+
 	{"fileName": "300loveWitch.jpg",
-	"categories": ["illustration"], 
-	"creationDate": "2014-02-14", 
+	"categories": ["illustration"],
+	"creationDate": "2014-02-14",
 	"caption": "Love Witch: Digital Illustration - Photoshop (2014)"},
-	
+
 	{"fileName": "300maleHeadSculpt01.jpg",
-	"categories": ["figure"], 
-	"creationDate": "2012-11-15", 
+	"categories": ["figure"],
+	"creationDate": "2012-11-15",
 	"caption": "Male Portrait: Sculpture - Clay (2012)"},
-	
+
 	{"fileName": "300maleHeadSculpt02.jpg",
-	"categories": ["figure"], 
-	"creationDate": "2012-11-15", 
+	"categories": ["figure"],
+	"creationDate": "2012-11-15",
 	"caption": "Male Portrait: Sculpture - Clay (2012)"},
-	
+
 	{"fileName": "300manBackStanding.jpg",
-	"categories": ["figure"], 
-	"creationDate": "2013-05-10", 
+	"categories": ["figure"],
+	"creationDate": "2013-05-10",
 	"caption": "Man Standing, Back: Figure Drawing - Sanguine and White Conte on Toned Paper (2013)"},
-	
+
 	{"fileName": "300nateAndLaura.jpg",
-	"categories": ["illustration", "design"], 
-	"creationDate": "2013-10-13", 
+	"categories": ["illustration", "design"],
+	"creationDate": "2013-10-13",
 	"caption": "Nate and Laura: Wedding Invite - Photoshop (2013)"},
-	
+
 	{"fileName": "300pieShoes.jpg",
-	"categories": ["shoes"], 
-	"creationDate": "2012-11-11", 
+	"categories": ["shoes"],
+	"creationDate": "2012-11-11",
 	"caption": "Pie: Customized Shoes - Acrylic on Canvas Shoes (2012)"},
-	
+
 	{"fileName": "300pita.jpg",
-	"categories": ["illustration"], 
-	"creationDate": "2014-02-01", 
+	"categories": ["illustration"],
+	"creationDate": "2014-02-01",
 	"caption": "Puppy Love: Digital Illustration - Photoshop (2014)"},
-	
+
 	{"fileName": "300rainbowExShoes.jpg",
-	"categories": ["shoes"], 
-	"creationDate": "2012-06-21", 
+	"categories": ["shoes"],
+	"creationDate": "2012-06-21",
 	"caption": "Rainbow Explosions: Customized Shoes - Acrylic on Canvas Shoes (2012)"},
-	
+
 	{"fileName": "300scienceArtWonder.png",
-	"categories": ["illustration", "design"], 
-	"creationDate": "2014-01-23", 
+	"categories": ["illustration", "design"],
+	"creationDate": "2014-01-23",
 	"caption": "Science, Art, Wonder: Digital Illustration - Illustrator (2014)"},
-	
+
 	{"fileName": "300sfSnow.jpg",
-	"categories": ["illustration"], 
-	"creationDate": "2014-03-13", 
+	"categories": ["illustration"],
+	"creationDate": "2014-03-13",
 	"caption": "San Francisco: Digital Illustration - Photoshop (2014)"},
-	
+
 	{"fileName": "300threeGuitars.jpg",
-	"categories": ["illustration"], 
-	"creationDate": "2014-03-21", 
+	"categories": ["illustration"],
+	"creationDate": "2014-03-21",
 	"caption": "3G: Digital Illustration - Illustrator (2014)"},
-	
+
 	{"fileName": "300weddingBanner.jpg",
-	"categories": ["illustration", "design"], 
-	"creationDate": "2014-03-03", 
+	"categories": ["illustration", "design"],
+	"creationDate": "2014-03-03",
 	"caption": "Wedding Invite: Digital Illustration - Photoshop (2014)"},
-	
+
 	{"fileName": "300wolves.gif",
-	"categories": ["illustration"], 
-	"creationDate": "2013-12-30", 
+	"categories": ["illustration"],
+	"creationDate": "2013-12-30",
 	"caption": "Wolf Warrior: Animated Illustration - Photoshop (2013)"},
-	
+
 	{"fileName": "300womanSitting.jpg",
-	"categories": ["figure"], 
-	"creationDate": "2013-08-30", 
+	"categories": ["figure"],
+	"creationDate": "2013-08-30",
 	"caption": "Female Sitting: Figure Drawing - Charcoal (2013)"},
-	
+
 	{"fileName": "300womanSittingStaff.jpg",
-	"categories": ["figure"], 
-	"creationDate": "2013-05-18", 
+	"categories": ["figure"],
+	"creationDate": "2013-05-18",
 	"caption": "Woman Sitting, with Staff: Figure Drawing - Sanguine and White Conte on Toned Paper (2013)"},
-	
+
 	{"fileName": "300womenInChair.jpg",
-	"categories": ["figure"], 
-	"creationDate": "2013-08-04", 
+	"categories": ["figure"],
+	"creationDate": "2013-08-04",
 	"caption": "Female Sitting, in Chair: Figure Drawing - Charcoal (2013)"},
-	
+
 	{"fileName": "300youngArtist.png",
-	"categories": ["illustration"], 
-	"creationDate": "2014-01-23", 
+	"categories": ["illustration"],
+	"creationDate": "2014-01-23",
 	"caption": "Young Artist: Digital Illustration - Illustrator (2014)"},
-	
-	{"fileName": "300fullBody.JPG", "categories": ["3d"], 
-	"creationDate": "2013-05-30", 
+
+	{"fileName": "300fullBody.JPG", "categories": ["3d"],
+	"creationDate": "2013-05-30",
 	"caption": "Lower Extremity Vasculature: Scientific 3D Model - SimVascular, VolView (2013)"},
 
-	{"fileName": "300jumpVideo.png", "categories": ["3d"], 
-	"creationDate": "2013-08-02", 
+	{"fileName": "300jumpVideo.png", "categories": ["3d"],
+	"creationDate": "2013-08-02",
 	"caption": "Bed Jump: Texturing, Lighting & Compositing - Maya, Mudbox, Photoshop, Nuke (2013)",
 	"video": "<iframe class='temp' src='//player.vimeo.com/video/71611981' width='500' height='281' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"},
 
-	{"fileName": "300robotVideo.png", "categories": ["3d"], 
-	"creationDate": "2012-12-16", 
+	{"fileName": "300robotVideo.png", "categories": ["3d"],
+	"creationDate": "2012-12-16",
 	"caption": "Robot Dance: 3D Modeling, Texturing, Lighting & Animation - Maya, Photoshop, AfterEffects (2012)",
 	"video": "<iframe class='temp' src='//player.vimeo.com/video/55740827' width='500' height='375' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"},
 
 	{"fileName": "300cactus.png",
-	"categories": ["illustration"], 
-	"creationDate": "2014-05-01", 
+	"categories": ["illustration"],
+	"creationDate": "2014-05-01",
 	"caption": "Cacti: Digital Illustration - Photoshop (2014)"},
 
 	{"fileName": "300locality.png",
-	"categories": ["design"], 
-	"creationDate": "2014-05-10", 
+	"categories": ["design"],
+	"creationDate": "2014-05-10",
 	"caption": "Locality: Concept wireframes (work in progress) - Illustrator (2014)"},
 
 	{"fileName": "300PAHwireframes.png",
-	"categories": ["design"], 
-	"creationDate": "2014-04-20", 
+	"categories": ["design"],
+	"creationDate": "2014-04-20",
 	"caption": "Phones Against Humanity: Wireframes - Illustrator (2014)"},
 
 	{"fileName": "300StravaMotoMockup.png",
-	"categories": ["design"], 
-	"creationDate": "2014-05-15", 
+	"categories": ["design"],
+	"creationDate": "2014-05-15",
 	"caption": "Strava Moto 360: Mockup - Photoshop, Illustrator (2014)"},
 
 	{"fileName": "300transportIcons.png",
-	"categories": ["design"], 
-	"creationDate": "2014-05-11", 
+	"categories": ["design"],
+	"creationDate": "2014-05-11",
 	"caption": "Transportation Modes: Icons - Illustrator (2014)"},
 
 	{"fileName": "300daylightWatch.gif",
-	"categories": ["design"], 
-	"creationDate": "2014-02-01", 
+	"categories": ["design"],
+	"creationDate": "2014-02-01",
 	"caption": "Daylight Moto 360: Mockup - Photoshop, Illustrator (2014)"},
 
 	{"fileName": "300greenShadowIcons.png",
-	"categories": ["design", "illustration"], 
-	"creationDate": "2014-06-01", 
+	"categories": ["design", "illustration"],
+	"creationDate": "2014-06-01",
 	"caption": "Flat Shadow Icons: Icons - Illustrator (2014)"},
 
 	{"fileName": "300Gsg1.png",
-	"categories": ["design"], 
-	"creationDate": "2014-06-02", 
+	"categories": ["design"],
+	"creationDate": "2014-06-02",
 	"caption": "Gaia Colonies Styleguide: Design - Illustrator (2014)"},
 
 	{"fileName": "300gaiaLanding.png",
-	"categories": ["design"], 
-	"creationDate": "2014-06-10", 
+	"categories": ["design"],
+	"creationDate": "2014-06-10",
 	"caption": "Gaia Colonies Landing Page: Design - Illustrator (2014)"},
 
 	{"fileName": "300launch.png",
-	"categories": ["illustration"], 
-	"creationDate": "2014-06-01", 
+	"categories": ["illustration"],
+	"creationDate": "2014-06-01",
 	"caption": "Launch: Digital Illustration - Illustrator (2014)"},
 
 	{"fileName": "300pah_iphones2.png",
-	"categories": ["design"], 
-	"creationDate": "2014-05-25", 
+	"categories": ["design"],
+	"creationDate": "2014-05-25",
 	"caption": "Phones Against Humanity: Mockup - Illustrator, Photoshop (2014)"},
 
 	{"fileName": "300partyCorgi.png",
-	"categories": ["illustration"], 
-	"creationDate": "2014-05-26", 
+	"categories": ["illustration"],
+	"creationDate": "2014-05-26",
 	"caption": "Party Corgi: Digital Illustration - Photoshop (2014)"},
 
 	{"fileName": "300stations.png",
-	"categories": ["illustration"], 
-	"creationDate": "2014-05-28", 
-	"caption": "Stations: Digital Illustration - Illustrator (2014)"}
+	"categories": ["illustration"],
+	"creationDate": "2014-05-28",
+	"caption": "Stations: Digital Illustration - Illustrator (2014)"},
 
+	{"fileName": "300angular.png",
+	"categories": ["illustration", "design"],
+	"creationDate": "2015-04-01",
+	"caption": "Angular 2.0 Website Banner: Digital Illustration - Illustrator (2015)"},
 
+	{"fileName": "300emberconf.png",
+	"categories": ["illustration", "design"],
+	"creationDate": "2015-03-02",
+	"caption": "Ember Conf 2015: Tshirt Design - Illustrator (2015)"},
 
+	{"fileName": "300experts.png",
+	"categories": ["illustration", "design"],
+	"creationDate": "2015-03-04",
+	"caption": "Firebase Experts: Digital Illustration - Illustrator (2015)"},
 
+	{"fileName": "300expertsPage.png",
+	"categories": ["design"],
+	"creationDate": "2015-03-05",
+	"caption": "Firebase Experts: Webpage - Design & Development (2015)"},
+
+	{"fileName": "300future.png",
+	"categories": ["illustration"],
+	"creationDate": "2015-03-20",
+	"caption": "Back to the Future: Digital Illustration - Illustrator (2015)"},
+
+	{"fileName": "300gameboy.png",
+	"categories": ["illustration"],
+	"creationDate": "2015-03-21",
+	"caption": "Game On: Digital Illustration - Illustrator (2015)"},
+
+	{"fileName": "300happycloud.png",
+	"categories": ["illustration"],
+	"creationDate": "2015-03-22",
+	"caption": "Game On: Digital Illustration - Illustrator (2015)"},
+
+	{"fileName": "300lineart.png",
+	"categories": ["illustration", "design"],
+	"creationDate": "2015-03-30",
+	"caption": "Work Lines: Digital Illustration - Illustrator (2015)"},
+
+	{"fileName": "300ngconf.png",
+	"categories": ["illustration", "design"],
+	"creationDate": "2015-03-15",
+	"caption": "ng-conf 2015: Tshirt Design - Illustrator (2015)"},
+
+	{"fileName": "300origamiBears.png",
+	"categories": ["illustration"],
+	"creationDate": "2015-04-01",
+	"caption": "Paper Bears: Digital Illustration - Illustrator (2015)"},
+
+	{"fileName": "300paperhouses.png",
+	"categories": ["illustration"],
+	"creationDate": "2015-03-16",
+	"caption": "Paper Houses: Digital Illustration - Illustrator (2015)"},
+
+	{"fileName": "300personas.png",
+	"categories": ["illustration"],
+	"creationDate": "2015-03-17",
+	"caption": "Gathering: Digital Illustration - Illustrator (2015)"},
+
+	{"fileName": "300personas.png",
+	"categories": ["illustration"],
+	"creationDate": "2015-03-17",
+	"caption": "Gathering: Digital Illustration - Illustrator (2015)"},
+
+	{"fileName": "300realtime.png",
+	"categories": ["illustration"],
+	"creationDate": "2015-02-17",
+	"caption": "Realtime All the Things: Tshirt Design - Illustrator (2015)"}
 
 ]
 
